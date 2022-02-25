@@ -37,7 +37,7 @@ productsDiv.addEventListener("click",(e) => {
         {
             quantityP.innerText++;
             calculateProductTotal(quantityP);
-            console.log("plus");
+            // console.log("plus");
             
 //--- Remove Button ---           
         } else if (e.target.className == "remove-product") {
